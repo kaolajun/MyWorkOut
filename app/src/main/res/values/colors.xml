@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFBB33</color>
+    <color name="colorPrimaryDark">#FFBB33</color>
+    <color name="colorAccent">#FF9900</color>
+    <color name="colorOrange">#FF9900</color>
+    <color name="colorTodayWeight">#FF9900</color>
+    <!--底部选择栏颜色-->
+    <color name="colorUnder">#FFFFFF</color>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="partOfBodyList">
+        <item>请选择部位</item>
+        <item>有氧</item>
+        <item>胸</item>
+        <item>背</item>
+        <item>腿</item>
+        <item>肩</item>
+        <item>二头</item>
+        <item>三头</item>
+    </string-array>
+</resources>

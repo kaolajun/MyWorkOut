@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.nwpu.yanjin.myworkout.MainFragment"
+        android:label="日历"
+        tools:layout="@layout/main_fragment" >
+        <action
+            android:id="@+id/action_mainFragment_to_todayActionFragment"
+            app:destination="@id/todayActionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/actionFragment"
+        android:name="com.nwpu.yanjin.myworkout.ActionFragment"
+        android:label="动作"
+        tools:layout="@layout/action_fragment" >
+        <action
+            android:id="@+id/action_actionFragment_to_addActionFragment"
+            app:destination="@id/addActionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/userFragment"
+        android:name="com.nwpu.yanjin.myworkout.UserFragment"
+        android:label="我的"
+        tools:layout="@layout/user_fragment" />
+    <action
+        android:id="@+id/action_userFragment_to_weightChartFragment"
+        app:destination="@id/weightChartFragment" />
+    <fragment
+        android:id="@+id/addActionFragment"
+        android:name="com.nwpu.yanjin.myworkout.AddActionFragment"
+        android:label="添加动作"
+        tools:layout="@layout/addaction_fragment">
+        <action
+            android:id="@+id/action_addActionFragment_to_actionFragment"
+            app:destination="@id/actionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/todayActionFragment"
+        android:name="com.nwpu.yanjin.myworkout.TodayActionFragment"
+        android:label="添加今日动作"
+        tools:layout="@layout/todayaction_fragment">
+        <action
+            android:id="@+id/action_todayActionFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/weightChartFragment"
+        android:name="com.nwpu.yanjin.myworkout.WeightChartFragment"
+        android:label="体重变化图"
+        tools:layout="@layout/weightchart_fragment">
+
+    </fragment>
+
+</navigation>

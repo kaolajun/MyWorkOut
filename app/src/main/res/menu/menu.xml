@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/actionFragment"
+        android:icon="@drawable/ic_fitness_center_black_24dp"
+
+        android:title="动作" />
+    <item
+        android:id="@+id/mainFragment"
+        android:icon="@drawable/ic_today_black_24dp"
+        android:title="日历" />
+    <item
+        android:id="@+id/userFragment"
+        android:icon="@drawable/ic_mood_black_24dp"
+        android:title="我的" />
+</menu>
